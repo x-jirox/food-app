@@ -25,12 +25,14 @@ header .navbar.sticky {
   -moz-box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
   box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
 }
+
 @keyframes stickyTransition {
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
   }
+
   100% {
     opacity: 1;
     -webkit-transform: none;
@@ -43,6 +45,7 @@ header .logo img {
   max-width: inherit;
   max-height: 80px;
 }
+
 header .nav-link {
   display: inline-flex;
   justify-content: center;
@@ -62,13 +65,16 @@ header .nav-link {
 header .sticky .nav-link {
   color: var(--light-black);
 }
+
 header .nav-link:hover {
   color: var(--yellow);
 }
+
 header .cart {
   position: relative;
   top: -0.4375rem;
 }
+
 header .roundpoint {
   width: 16px;
   height: 16px;
@@ -90,17 +96,21 @@ header .roundpoint {
   header .navbar {
     background-color: var(--white);
   }
+
   header .navbar-toggler {
     border: none;
   }
+
   header .navbar-toggler:focus {
     outline: none;
     box-shadow: none;
   }
+
   header .navbar-toggler-icon {
     width: 2.5rem;
     height: 2.5rem;
   }
+
   header .nav-link {
     color: var(--light-black);
     padding: 1rem !important;
