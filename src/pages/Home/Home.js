@@ -12,22 +12,22 @@ import Section7 from './Section7'
 function Home() {
   return (
     <>
-    <Layout>
-      {/* Section 1 Hero Banner */}
-      <Section1 />
-      {/* Section 2 About */}
-      <Section2 />
-      {/* Section 3 menu */}
-      <Section3 />
-      {/* Section 4 promotion */}
-      <Section4 />
-       {/* Section 5 shop*/}
-       <Section5 />
-      {/* Section 6 blog*/}
-       <Section6 />
-       {/*Section 7 contact */}
-       <Section7 />
-    </Layout>
+      <Layout>
+        {/* Section 1 Hero Banner */}
+        <Section1 />
+        {/* Section 2 About */}
+        <Section2 />
+        {/* Section 3 menu */}
+        <Section3 />
+        {/* Section 4 promotion */}
+        <Section4 />
+        {/* Section 5 shop*/}
+        <Section5 />
+        {/* Section 6 blog*/}
+        <Section6 />
+        {/*Section 7 contact */}
+        <Section7 />
+      </Layout>
     </>
   )
 }
